@@ -1,0 +1,71 @@
+/* try chat bot */
+.open-button {
+    background-color:  rgb(44 74 121);
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 161px;
+    border-radius: 20px;
+  }
+  
+  /* The popup chat - hidden by default */
+  .chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 6px solid #0f142d;;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 289px;
+    padding: 9px;
+    background-color: rgb(62 69 107 / 92%);}
+  
+  /* Full-width textarea */
+  .form-container textarea {
+    width: 86%;
+      padding: 15px;
+      margin: 5px 0px 22px;
+      border: none;
+      background: #e8eaf6;
+      resize: none;
+      min-height: 200px;
+  }
+  
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/send button */
+  .form-container .btn {
+    background-color: #3f51b5;
+      color: white;
+      padding: 16px 32px;
+      border: none;
+      cursor: pointer;
+      width: 99%;
+      margin-bottom: 10px;
+      opacity: 0.8;
+      border-radius: 28px;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: #c25555d9;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+  
